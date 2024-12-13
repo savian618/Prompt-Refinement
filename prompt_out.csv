@@ -1,0 +1,2 @@
+Document,datapoint,new_prompt,old_prompt
+Underwriting Findings- LP,housingRatio,What is the housing ratio for the borrower? Extract the numeric value from the 'HOUSING RATIO' field and return it as a string without the percentage sign.,What is the housing ratio?  ignore the percent sign and return the json number as a string.

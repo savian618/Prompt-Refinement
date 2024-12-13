@@ -1,0 +1,16 @@
+Document: Underwriting Findings- LP
+Datapoint: housingRatio
+Prompt: What is the housing ratio for the borrower? Extract the numeric value from the 'HOUSING RATIO' field and return it as a string.
+New Value: 20%
+Expected: 20
+UID for Prompt Refinement:0a633ea6-0a58-416d-b3e8-94cd544fa921
+UID for Prompt Test:67076908-9e17-4723-864d-16d0fd7acef2
+-----------------------------
+Document: Underwriting Findings- LP
+Datapoint: housingRatio
+Prompt: What is the housing ratio for the borrower? Extract the numeric value from the 'HOUSING RATIO' field and return it as a string without the percentage sign.
+New Value: 20
+Expected: 20
+UID for Prompt Refinement:f1b43af5-3312-4f50-895b-a91b235b9237
+UID for Prompt Test:267716f2-dd76-4bfd-9cd9-80966cad4018
+-----------------------------
